@@ -1,0 +1,19 @@
+body {
+  position: relative;
+  font-family: "Helvetica Neue" Helvetica Arial sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333;
+  background-color: #aaa; }
+
+.main-content {
+  position: relative;
+  font-family: "Helvetica Neue" Helvetica Arial sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #cdbfe3;
+  background-color: #6f5499;
+  display: block;
+  padding: 80px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }

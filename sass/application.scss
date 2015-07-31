@@ -1,0 +1,23 @@
+@import "base";
+@mixin setbody($position:relative, $font:"Helvetica Neue" Helvetica Arial sans-serif, $fontsize:14px, $lineheight:1.42857143, $color:#333, $bgcolor:#aaa) {
+  position: $position;
+  font-family: $font;
+  font-size: $fontsize;
+  line-height: $lineheight;
+  color: $color;
+  background-color: $bgcolor;
+}
+
+body {
+  @include setbody();
+}
+
+.main-content {
+  @include setbody($color: #cdbfe3,$bgcolor: #6f5499);
+  display: block;
+  padding: 80px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  //background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+  //background-repeat: repeat-x;
+}
